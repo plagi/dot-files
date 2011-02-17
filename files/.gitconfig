@@ -1,11 +1,11 @@
 [user]
-        name = Ben Hoskings
-        email = ben@hoskings.net
+        name = Alexey Vorobiev
+        email = alexey@itima.ru
 [color]
 	diff = auto
 	status = auto
 	branch = auto
 [core]
-	excludesfile = /Users/ben/.gitignore
+	excludesfile = /Users/alexey/.gitignore
 [github]
-	user = benhoskings
+	user = plagi
