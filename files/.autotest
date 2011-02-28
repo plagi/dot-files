@@ -1,5 +1,5 @@
-require 'autotest/redgreen'
-require 'autotest/timestamp'
+#require 'redgreen/autotest'
+require "autotest/fsevent"
 
 module Autotest::Growl
 
@@ -24,4 +24,7 @@ module Autotest::Growl
     end
   end
 
+end
+Autotest.add_hook :initialize do |at| 
+  at.find_directories = ['./features', './spec', '/app', '/lib'] 
 end

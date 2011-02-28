@@ -1,11 +1,12 @@
 [user]
-        name = Alexey Vorobiev
-        email = alexey@itima.ru
+	name = Alexey Vorobiev
+	email = alexey@itima.ru
 [color]
 	diff = auto
 	status = auto
 	branch = auto
 [core]
 	excludesfile = /Users/alexey/.gitignore
+	editor = "mate -w"
 [github]
 	user = plagi
